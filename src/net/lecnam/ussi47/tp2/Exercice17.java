@@ -15,7 +15,18 @@ public class Exercice17 {
                 if (nbEtoiles > 0 && nbEtoiles < 21) {
                     System.out.println("Dessin du sapin avec une base de " + nbEtoiles);
 
-                    // Saisir votre code ici
+                    String ligne = "";
+                    int i = 1 ;
+                    int a = 1;
+
+                    for (i = nbEtoiles ; i > 0; i--){
+                        String espace = " ";
+                        String etoile = "*";
+                        String nombreEspace = espace.repeat(i-1);
+                        String nombreEtoile = etoile.repeat(a);
+                        System.out.println(nombreEspace + nombreEtoile + nombreEspace);
+                        a = a + 2 ;
+                    }
 
 
                 }
