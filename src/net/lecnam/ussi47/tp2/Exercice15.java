@@ -3,12 +3,12 @@ package net.lecnam.ussi47.tp2;
 public class Exercice15 {
 
     public static void main(String[] args) {
-        int hauteur = 5;
+        int hauteur = 9;
         String ligne = "";
         int i = 1 ;
         int a = 1;
 
-        for (i = 5 ; i > 0; i--){
+        for (i = hauteur ; i > 0; i--){
             String espace = " ";
             String etoile = "*";
             String nombreEspace = espace.repeat(i-1);
