@@ -4,7 +4,7 @@ public class Exercice1 {
 
     public static void main(String[] args) {
         int i = 12 ;
-        double j = 2.26 ;
+        float j = 2.26f ;
         short k = -300 ;
         long  l = 30000000000l;
         int m = 2000000000;
