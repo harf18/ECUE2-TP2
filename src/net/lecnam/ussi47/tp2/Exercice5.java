@@ -7,7 +7,8 @@ public class Exercice5 {
         System.out.println(surfacePiece);
 
         double nombreDeRadiateurTotal = (surfacePiece * 1) / 8;
-        System.out.println("Il faut " + Math.ceil(nombreDeRadiateurTotal) + " radiateurs");
+        int test = (int) Math.ceil(nombreDeRadiateurTotal);
+        System.out.println("Il faut " + test + " radiateurs");
 
     }
 }
