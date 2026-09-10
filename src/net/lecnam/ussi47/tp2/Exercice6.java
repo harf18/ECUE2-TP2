@@ -7,9 +7,9 @@ public class Exercice6 {
     public static void main(String[] args) {
         byte randomNumber= (byte) ThreadLocalRandom.current().nextInt(0,2);
         if (randomNumber == 0) {
-            System.out.println(false);
+            System.out.println(randomNumber + " : " + false);
         } else if (randomNumber == 1) {
-            System.out.println(true);
+            System.out.println(randomNumber + " : " + true);
         }
     }
 }
