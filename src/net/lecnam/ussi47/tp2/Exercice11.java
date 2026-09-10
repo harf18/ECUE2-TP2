@@ -4,6 +4,9 @@ public class Exercice11 {
 
     public static void main(String[] args) {
 
+        String chaineAChanger = "DGAC";
+
+        System.out.println("Le changement donne : " + chaineAChanger.substring(0, 1) + chaineAChanger.substring(1).toLowerCase());
 
     }
 }
