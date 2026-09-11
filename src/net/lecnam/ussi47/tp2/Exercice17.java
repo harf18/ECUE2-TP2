@@ -16,7 +16,17 @@ public class Exercice17 {
                     System.out.println("Dessin du sapin avec une base de " + nbEtoiles);
 
                     // Saisir votre code ici
-
+                    for (int i = 1; i <= nbEtoiles; i++) {
+                        // Espaces avant les étoiles
+                        for (int j = 0; j < nbEtoiles - i; j++) {
+                            System.out.print(" ");
+                        }
+                        // Étoiles
+                        for (int k = 0; k < 2 * i - 1; k++) {
+                            System.out.print("*");
+                        }
+                        System.out.println();
+                    }
 
                 }
             } catch (Exception e) {
